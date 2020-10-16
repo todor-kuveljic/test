@@ -68,7 +68,7 @@ disqusShortname = ""
 
     # Button Style 1
     [[params.navigation.button1]]
-      name = "Get Started"
+      name = "Come and see"
       url = "blogs"
 
     # Button Style 2
@@ -83,7 +83,7 @@ disqusShortname = ""
     # the 'static/img' folder.
     title = "Hi, my name is Todor"
     subtitle = "A RESPONSIVE SITE TEMPLATE DESIGNED BY Todor UP\nAND RELEASED UNDER THE CREATIVE COMMONS."
-    buttonText = "Get Started"
+    buttonText = "Come and see"
 
 
   # Tiles Section
@@ -144,7 +144,7 @@ disqusShortname = ""
     Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
     Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
     Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
-    buttonText = "Get Started"
+    buttonText = "Come and see"
     url = "blogs"
 
 
