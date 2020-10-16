@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://todorstest.netlify.app/"
+baseURL = "https://todorstest.netlify.app/in"
 languageCode = "en-us"
 title = "Portfolio website for Kostis Christodoulou"
 theme = "forty"
