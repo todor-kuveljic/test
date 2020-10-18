@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "https://todorstest.netlify.app"
 languageCode = "en-us"
-title = "Portfolio website for Kostis Christodoulou"
+title = "Portfolio website for Todor Kuveljic"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
