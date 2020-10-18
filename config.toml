@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "https://todorstest.netlify.app"
 languageCode = "en-us"
-title = "Portfolio website for Todor Kuveljic"
+title = "Portfolio website by Todor Kuveljic"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
@@ -173,47 +173,47 @@ disqusShortname = ""
     # by copying the corresponding map with frontmatter code.
     [[params.contact.email]]
     title = "Email"
-    email = "todor.kuveljic@gmail.com"
+    email = "tkuveljic.mfa2021@london.edu"
 
     [[params.contact.phone]]
     title = "Phone"
-    phone = "(000) 000-0000 9999"
+    phone = "+447554533396"
 
     [[params.contact.address]]
     title = "Address"
-    street = "Street"
-    city = "City, ST 00000"
-    country = "Country"
+    street = "Great Street"
+    city = "London, ST 1389"
+    country = "UK"
 
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Company Name"
+    copyright = "LBS"
 
     # Uses font awesome icons
     [[params.footer.social]]
-      icon = "fa-twitter"
-      url= "https://www.twitter.com"
-      label = "Twitter"
+ #     icon = "fa-twitter"
+ #     url= "https://www.twitter.com"
+  #    label = "Twitter"
 
     [[params.footer.social]]
       icon = "fa-facebook"
-      url= "https://www.facebook.com"
+      url= "https://www.facebook.com/todor.kuveljic.1"
       label = "Facebook"
 
     [[params.footer.social]]
       icon = "fa-instagram"
-      url= "https://www.instagram.com"
+      url= "https://www.instagram.com/todor_kuveljic/?hl=en"
       label = "Instagram"
     
     [[params.footer.social]]
       icon = "fa-github"
-      url= "https://www.github.com"
+      url= "https://github.com/todor-kuveljic"
       label = "GitHub"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      url= "https://www.linkedin.com"
+      url= "https://rs.linkedin.com/in/todor-kuveljic"
       label = "LinkedIn"
 
     [[params.footer.quicklinks]]
