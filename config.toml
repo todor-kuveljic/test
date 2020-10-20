@@ -91,6 +91,12 @@ disqusShortname = ""
     enable = true
     # Display your showcases here.
     
+     [[params.tiles.showcase]]
+      title = "Proffesional bio"
+      subtitle = "This is my bio"
+      image = "banner.jpg"
+      url = "projects/Bio"
+    
  [[params.tiles.showcase]]
       title = "Homework 2"
       subtitle = "Let's have a look at HTML Doc"
@@ -103,12 +109,6 @@ disqusShortname = ""
       subtitle = "Let's have a look at HTML Doc"
       image = "risk_vs_return.jpeg"
       url = "projects/project_returns2/homework3"
-
-    [[params.tiles.showcase]]
-      title = "Magna"
-      subtitle = "Lorem Etiam Nullam"
-      image = "pic03.jpg"
-      url = "blogs/magna"
 
     [[params.tiles.showcase]]
       title = "Ipsum"
