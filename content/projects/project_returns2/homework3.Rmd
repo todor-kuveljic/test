@@ -34,16 +34,29 @@ knitr::opts_chunk$set(
 library(tidyverse)  # Load ggplot2, dplyr, and all the other tidyverse packages
 library(mosaic)
 library(ggthemes)
-library(GGally)
-library(readxl)
+library(lubridate)
 library(here)
 library(skimr)
 library(janitor)
+library(httr)
+library(readxl)
+library(vroom)
+library(fivethirtyeight)
+library(tidyquant)
+library(ggrepel)
+library(gggenes)
+library(scales)
+library(devtools)
+library(patchwork)
+library(tidytext)
+library(knitr)
+library(GGally)
+library(readxl)
 library(broom)
 library(tidyquant)
 library(infer)
 library(openintro)
-library(tidyquant)
+
 ```
 
 
@@ -75,13 +88,9 @@ weight_summary <- yrbss %>%
 
 weight_summary
 
-ggplot(yrbss, aes(x = weight)) +
-  geom_histogram() +
-  labs (
-    title = "Weight ditribution",
-    x = "Weight",
-    y = "")
-
+```
+```{r challenge1, echo=FALSE, out.width="100%"}
+knitr::include_graphics("challenge1.png", error = FALSE)
 ```
 
 Next, consider the possible relationship between a high schooler’s weight and their physical activity. Plotting the data is a useful first step because it helps us quickly visualize trends, identify strong associations, and develop research questions.
@@ -120,17 +129,11 @@ upper_CI_95
 
 A boxplot of `physical_3plus` vs. `weight`
 
-```{r, boxplot 2}
 
-ggplot(data=na.omit(yrbss), aes(x=physical_3plus, y=weight)) +
-  geom_boxplot() +
-  labs (
-    title = "Relationship between weight and physical activity",
-    x = "Does the individual work out more than 3 times a week?",
-    y = "Weight")
-
-
+```{r challenge2, echo=FALSE, out.width="100%"}
+knitr::include_graphics("challenge2.png", error = FALSE)
 ```
+
 The box plot shows that the minimum, 25th percentile, median, 75th percentile, and maximum of the weight of those who exercise 3+ times a week is higher than the equivalent for the ones that do not exercise as much
 
 This result is odd as we would expect people who exercise to be healthier and therefore have a lower weight than people who don't. This may be due to the fact that health and weight are sometimes wrongly connected.
