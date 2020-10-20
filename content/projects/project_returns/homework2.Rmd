@@ -41,6 +41,16 @@ library(janitor)
 library(httr)
 library(readxl)
 library(vroom)
+library(fivethirtyeight)
+library(tidyquant)
+library(ggrepel)
+library(gggenes)
+library(scales)
+library(devtools)
+library(patchwork)
+library(tidytext)
+library(knitr)
+
 ```
 
 
@@ -102,8 +112,11 @@ ggplot(tidyweather, aes(x=date, y = delta))+
     title = "Weather Anomalies"
   )
 
-```
 
+```
+```{r challenge1, echo=FALSE, out.width="100%"}
+knitr::include_graphics("challenge1.png", error = FALSE)
+```
 
 ```{r facet_wrap, echo=FALSE}
 
@@ -114,8 +127,12 @@ ggplot(tidyweather, aes(x=date, y = delta))+
   theme_bw() +
   
   labs (
-    title = "Weather Anomalies"
+    title = "Weather Anomalies2"
   )
+
+```
+```{r challenge2, echo=FALSE, out.width="100%"}
+knitr::include_graphics("challenge2.png", error = FALSE)
 ```
 
 
@@ -154,6 +171,10 @@ ggplot(comparison, aes(x=delta, fill=interval))+
   )
 
 ```
+```{r challenge3, echo=FALSE, out.width="100%"}
+knitr::include_graphics("challenge3.png", error = FALSE)
+```
+
 
 So far, we have been working with monthly anomalies. However, we might be interested in average annual anomalies. We can do this by using `group_by()` and `summarise()`, followed by a scatter plot to display the result. 
 
@@ -182,4 +203,7 @@ ggplot(average_annual_anomaly, aes(x=Year, y= annual_average_delta))+
   )                         
 
 
+```
+```{r challenge4, echo=FALSE, out.width="100%"}
+knitr::include_graphics("challenge4.png", error = FALSE)
 ```
