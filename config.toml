@@ -95,7 +95,7 @@ disqusShortname = ""
       title = "Proffesional bio"
       subtitle = "This is my bio"
       image = "banner.jpg"
-      url = "projects/Bio"
+      url = "projects/Bio/index"
     
  [[params.tiles.showcase]]
       title = "Homework 2"
