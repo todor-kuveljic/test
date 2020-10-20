@@ -100,7 +100,7 @@ disqusShortname = ""
  [[params.tiles.showcase]]
       title = "Climate change"
       subtitle = "Let's have a look"
-      image = "cliamte.jpg"
+      image = "climate.jpg"
       url = "projects/project_returns/homework2"
 
 
