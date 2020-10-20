@@ -104,33 +104,14 @@ tidyweather <- tidyweather %>%
          month = month(date, label=TRUE),
          year = year(date))
 
-ggplot(tidyweather, aes(x=date, y = delta))+
-  geom_point()+
-  geom_smooth(color="red") +
-  theme_bw() +
-  labs (
-    title = "Weather Anomalies"
-  )
-
 
 ```
+
 ```{r challenge1, echo=FALSE, out.width="100%"}
 knitr::include_graphics("challenge1.png", error = FALSE)
 ```
 
-```{r facet_wrap, echo=FALSE}
 
-ggplot(tidyweather, aes(x=date, y = delta))+
-  geom_point()+
-  geom_smooth(color="red") +
-  facet_wrap(~month) +
-  theme_bw() +
-  
-  labs (
-    title = "Weather Anomalies2"
-  )
-
-```
 ```{r challenge2, echo=FALSE, out.width="100%"}
 knitr::include_graphics("challenge2.png", error = FALSE)
 ```
@@ -160,17 +141,7 @@ Inspect the `comparison` dataframe by clicking on it in the `Environment` pane.
 
 Now that we have the `interval` variable, we can create a density plot to study the distribution of monthly deviations (`delta`), grouped by the different time periods we are interested in. Set `fill` to `interval` to group and colour the data by different time periods.
 
-```{r density_plot}
 
-ggplot(comparison, aes(x=delta, fill=interval))+
-  geom_density(alpha=0.2) +   #density plot with tranparency set to 20%
-  theme_bw() +                #theme
-  labs (
-    title = "Density Plot for Monthly Temperature Anomalies",
-    y     = "Density"         #changing y-axis label to sentence case
-  )
-
-```
 ```{r challenge3, echo=FALSE, out.width="100%"}
 knitr::include_graphics("challenge3.png", error = FALSE)
 ```
@@ -188,22 +159,11 @@ average_annual_anomaly <- tidyweather %>%
   # use `na.rm=TRUE` to eliminate NA (not available) values 
   summarise(annual_average_delta = mean(delta, na.rm=TRUE)) 
 
-#plotting the data:
-ggplot(average_annual_anomaly, aes(x=Year, y= annual_average_delta))+
-  geom_point()+
-  
-  #Fit the best fit line, using LOESS method
-  geom_smooth() +
-  
-  #change to theme_bw() to have white background + black frame around plot
-  theme_bw() +
-  labs (
-    title = "Average Yearly Anomaly",
-    y     = "Average Annual Delta"
-  )                         
+                     
 
 
 ```
+
 ```{r challenge4, echo=FALSE, out.width="100%"}
 knitr::include_graphics("challenge4.png", error = FALSE)
 ```
