@@ -1,0 +1,32 @@
+---
+title: 'Professional Biography'
+author: "Todor Kuveljic"
+date: "20/10/2020"
+output:
+  html_document:
+    highlight: zenburn
+    theme: flatly
+    toc: yes
+    toc_float: yes
+  word_document:
+    toc: yes
+---
+
+
+```{r load-libraries, warning=FALSE, message=FALSE, echo=FALSE}
+library(tidyverse)  # Load ggplot2, dplyr, and all the other tidyverse packages
+library(gapminder)  # gapminder dataset
+library(here)
+```
+
+**My name is Todor Kuveljic and this is my story.** 
+# The beginning
+* Hockey became my passion at a young age, and I see how this activity branched out, deeply influencing the formation of my personality. As one of the fastest sports, hockey taught me how to look at movement strategically, how to think like a team member, when to pass and when to shoot.  
+By high school, through the long talks with my grandfather, an economist, I had discovered those same dynamics in the field of Finance, only with higher stakes and broader potential impact. My passion was redirected towards studies, making First Belgrade Economic High School a natural next step in my education, and consequently reflected in strong academic results. Throughout high school, I became increasingly aware of the IT’s role in shaping the socio-economic landscape and global consciousness.  
+A desire to ride the wave of change sweeping the planet focused my attention on the FinTech industry and served as an inspiration to simultaneously enroll at two different Bachelor’s programmes at two universities. Bachelor’s degree in Economics, at Belgrade Banking Academy (BBA)![](https://upload.wikimedia.org/wikipedia/commons/4/4d/BBA_zgrada.jpg), emphasized a practical approach – applying theory in diverse real-life contexts, attending case-study competitions and learning about corporate operations first-hand through frequent company visits. The specialization in Banking, Insurance and Finance at BBA was a logical step forward because modules such as Financial Statistics, Strategic Management, Risk Management and Corporate Finance represented the core knowledge of my intended professional direction. An excellent grade point average (9.89/10) reflected my genuine interest in the field, propelling me to the top of my class. In parallel, ever-growing appreciation for IT’s impact on every sphere of life served as motivation to become digitally literate, providing the impetus to enroll in the business-oriented IT programme at the Faculty of Organizational Sciences, University of Belgrade <http://www.fon.bg.ac.rs/eng/> . My studies at the highly ranked University of Belgrade focused on the practical application of IT. I learned about the operation of e-business, the use of databases, and more generally, managing information systems to attain greater efficiencies in various spheres of business. Studying towards two degrees also contributed to the development of my soft skills, most notably time management and organization.
+# International experience
+* The road I had taken to gain international experience led me to join the Work&Travel programme in the United States. The first time I participated in this programme in the summer of 2016, I worked as a server at a vacation resort in Maine. This initial visit helped me develop English-language fluency and provided exposure to one of the most diverse countries on earth. The following year, I was offered a job at the Intercontinental Hotel in Boston, where I spent my summer and formed many friendships. The most influential, for me personally, was the Principal of a PE fund who visited Boston weekly. My interest in Finance contributed to the development of a mentor-mentee relationship, through which I acquired a basic understanding of PE. I also came to understand that the field required exceptional leadership skills and represented a great challenge.\
+When it comes to my academic international experience, I participated in Erasmus+ programme and spent a semester abroad studying Economics at the Technical University of Kosice. Even though Slovakia is relatively close to my home country, culturally, it is worlds apart. The experience was notable because, for the first time, I studied economics-related subjects in English, which advanced my understanding of both Economics and English and, at the same time, gave me the opportunity to meet students from several European countries. The experience particularly expanded my knowledge of Econometric models and Hedging strategies used in both Investment Banking and PE. 
+# Internships
+* After that, I did two internships, one at the National Bank of Serbia (NBS) and one at Ernst&Young (EY). An NBS employee with experience in foreign markets helped me understand how Serbia lacks the investment environment to support PE funds, particularly with respect to market conditions and regulatory framework. At EY, during my Global Compliance and Reporting internship, I contributed to an advisory project for a Belgian company financed through PE, that unsuccessfully attempted to complete an ambitious real estate development project in one of Serbia’s leading resorts. I came to understand that the project was unsuccessful because company managers did not have adequate knowledge of local market conditions or the complex permitting system, which dissuades foreign companies from operating in the region without local partners. In summary, all of these experiences have conferred a clear understanding of the opportunities and threats in PE. Finally, I acquired essential leadership skills through founding and leading NGO Star 2000 - an organization dealing with youth and activism issues. It has allowed me to meet many people, learn more about policy-making & advocacy, and broaden my views on social issues and challenges. And currently I am working as a part-time intern in the BanyanTree PE/Search Fund.\ 
+
