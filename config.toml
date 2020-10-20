@@ -95,18 +95,18 @@ disqusShortname = ""
       title = "Proffesional bio"
       subtitle = "This is my bio"
       image = "me.jpg"
-      url = "projects/Bio/index.rmd"
+      url = "projects/Bio/index"
     
  [[params.tiles.showcase]]
       title = "Climate change"
       subtitle = "Let's have a look"
       image = "climate.jpg"
-      url = "projects/project_returns/homework2.rmd"
+      url = "projects/project_returns/homework2"
 
 
     [[params.tiles.showcase]]
      title = "Homework 3"
-      subtitle = "Let's have a look at HTML Doc"
+      subtitle = "Let's have a look"
       image = "risk_vs_return.jpeg"
       url = "projects/project_returns2/homework3"
 
